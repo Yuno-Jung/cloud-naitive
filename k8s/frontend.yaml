@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: eeveek3s/my-frontend:v1
+        image: eeveek3s/my-frontend:sha-238743a
         imagePullPolicy: Always
         ports:
         - containerPort: 80
